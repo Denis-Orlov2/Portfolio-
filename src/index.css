@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #0b1120;
+    color: #f1f5f9;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Syne', system-ui, sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Code & Terminal Prism Themes */
+pre[class*="language-"] {
+  background: #090d16 !important;
+  border-radius: 0.5rem;
+  margin: 0;
+  padding: 1.25rem;
+  overflow: auto;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+code[class*="language-"] {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+  text-shadow: none;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #64748b;
+  font-style: italic;
+}
+
+.token.punctuation {
+  color: #94a3b8;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #f43f5e;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #38bdf8;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #cbd5e1;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #a855f7;
+  font-weight: 500;
+}
+
+.token.function,
+.token.class-name {
+  color: #facc15;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #fb923c;
+}

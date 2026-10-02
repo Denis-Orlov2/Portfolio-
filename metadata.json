@@ -1,0 +1,6 @@
+{
+  "name": "Developer Portfolio & Code Sandbox",
+  "description": "Интерактивное портфолио разработчика с витриной проектов на HTML, JavaScript и Python, динамической фильтрацией, терминальной песочницей кода и асинхронным API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
